@@ -21,8 +21,16 @@ function App() {
               25°c
             </h1>
           </div>
+          <div className="description">
+            <p>Clouds</p>
+          </div>
         </div>
-        <div classname="bottom"></div>
+        <div classname="bottom">
+          <div className="feels"> 
+            <p>24°</p>
+          </div>
+          
+        </div>
       </div>
     </div>
   );
