@@ -10,7 +10,7 @@ function App() {
 
 
   return (
-    <div className="App">
+    <div className="app">
       <div className="container">
         <div className="top">
           <div className="location">
@@ -27,9 +27,14 @@ function App() {
         </div>
         <div classname="bottom">
           <div className="feels"> 
-            <p>24°</p>
+            <p>24°c</p>
           </div>
-          
+          <div className="humidity">
+            <p>20%</p>
+          </div>
+          <div className="wind">
+            12 MPH
+          </div>
         </div>
       </div>
     </div>
